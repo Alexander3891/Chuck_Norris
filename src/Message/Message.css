@@ -1,0 +1,42 @@
+.Message{
+    background-color: #f8f7f7;
+    max-width: 1120px;
+    margin: 0 auto;
+
+}
+.Message-container{
+    position: absolute;
+    background: #422ED4;
+    box-shadow: 0px 100px 80px rgba(80, 76, 103, 0.07), 0px 0px 10.0172px rgba(80, 76, 103, 0.035);
+    border-radius: 25px;
+    min-height: 162px;
+    max-width: 1076px;
+    padding: 24px;
+    z-index: 2;
+    margin-top: -100px;
+    /* margin-left: 160px; */
+
+}
+
+.Message-container_text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.Message-container_text_hover{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.Message-img{
+    position: relative;
+    z-index: 1;
+    margin-left: 86%;
+    padding-top: 10px;
+}
