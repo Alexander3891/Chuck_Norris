@@ -1,0 +1,49 @@
+.Categories{
+    max-width: 1120px;
+    margin: 0 auto;
+    background-color: #f8f7f7;
+}   
+.Categories-title{
+    padding: 60px 0px 60px 0px;
+    margin: 0 auto;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #1C1C39;
+}
+.Categories-items{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid #000; */
+     align-items: center;
+    margin-right: -20px;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    /* grid-gap: 20px; */
+}   
+.Categories-item{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 170px;
+    height: 57px;
+    color: #1C1C39;
+    margin: 0px 20px 20px 0px;
+}   
+ .Categories-item:hover {
+    color: #FFFFFF; 
+    background-color: #422ED4; 
+     transition: background 0.8s ease;
+   }
+
+.Categories-item_title{
+margin: 19px 16px 19px 16px;
+}
