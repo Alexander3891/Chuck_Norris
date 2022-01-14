@@ -1,0 +1,34 @@
+.Header{
+    background: #422ED4;
+    max-width: 1440px;
+    height: 59px;
+    margin: 0 auto;
+}
+.Header-logo{
+display: flex;
+width: 193px;
+margin: 0px 0px 0px 160px;
+
+} 
+
+.Header-logo_img{
+display: inline-block;
+margin: 8px 0px 0px 0px;
+}
+.Header-logo_img img{
+    width: 43px;
+    height: 43px;
+}
+
+.Header-logo_text{
+display: inline-block;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+margin: 17.97px 0px 0px 10px;
+
+
+color: #FFFFFF;
+}
